@@ -33,6 +33,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -141,4 +142,12 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/assets/bg-desktop-light.jpg);
+  }
 }
